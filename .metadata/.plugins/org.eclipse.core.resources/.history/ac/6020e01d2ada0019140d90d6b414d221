@@ -1,0 +1,5 @@
+package com.curso.udemmy;
+
+public class MvcConfig {
+
+}

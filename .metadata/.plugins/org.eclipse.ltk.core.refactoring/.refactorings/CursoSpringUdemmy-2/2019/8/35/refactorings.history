@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MiServicio.java&apos; to &apos;CursoSpringUdemmy-2/src/main/java/com.curso.udemmy.model.service&apos;&#x0D;&#x0A;- Original project: &apos;CursoSpringUdemmy-2&apos;&#x0D;&#x0A;- Destination element: &apos;CursoSpringUdemmy-2/src/main/java/com.curso.udemmy.model.service&apos;&#x0D;&#x0A;- Original element: &apos;com.curso.udemmy.model.service.MiServicio.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;com.curso.udemmy.model.service" element1="/src\/main\/java&lt;com.curso.udemmy.model.service{MiServicio.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1567197165668" units="1" version="1.0"/>
+</session>

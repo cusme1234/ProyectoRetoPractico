@@ -1,0 +1,5 @@
+package com.curso.udemmy.models.service;
+
+public interface IUploadFileService {
+
+}
