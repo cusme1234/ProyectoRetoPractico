@@ -55,7 +55,9 @@ public class ProductoServiceImpl implements ProductoService {
 	}
 
 	private static void validarCantidaAvender(Integer cantidadAvender) throws Exception {
-		
+		if (cantidadAvender == null || cantidadAvender ) {
+			throw new Exception("El id no puede ser nulo ni menor que uno");
+		}
 		
 	private static void validarId(Integer id) throws Exception {
 		if (id == null || id < 1) {

@@ -5106,3 +5106,172 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 14:32:39.874
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JSEveHoB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:45.979
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:45.980
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@53bf791[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=1001)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:45.981
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.122
+!MESSAGE Boot LS startup time from start to initialized: 4137ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.175
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MOxRzSTJisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.175
+!MESSAGE subscribing to classpath changes: sts4.classpath.MOxRzSTJ isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.176
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.177
+!MESSAGE subsribers = {sts4.classpath.MOxRzSTJ=Send Classpath Notifications(1430)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.178
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.180
+!MESSAGE project RetoPractico ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.181
+!MESSAGE project CursoSpring ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.181
+!MESSAGE Preparing classpath changed notification RetoPractico
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.182
+!MESSAGE project CursoSpringUdemmy ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.183
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.183
+!MESSAGE project CursoSpringUdemmy-2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.184
+!MESSAGE project CursoSpringUdemmy-3 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.185
+!MESSAGE project RetoPractico2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.186
+!MESSAGE project spring-boot-data-jpa ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.187
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.187
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MOxRzSTJ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.204
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.215
+!MESSAGE buffering callback sts4.classpath.MOxRzSTJ RetoPractico false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.216
+!MESSAGE Preparing classpath changed notification CursoSpring
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.217
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.227
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.236
+!MESSAGE buffering callback sts4.classpath.MOxRzSTJ CursoSpring false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.237
+!MESSAGE Preparing classpath changed notification CursoSpringUdemmy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.238
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.247
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.256
+!MESSAGE buffering callback sts4.classpath.MOxRzSTJ CursoSpringUdemmy false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.257
+!MESSAGE Preparing classpath changed notification CursoSpringUdemmy-2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.258
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.267
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.276
+!MESSAGE buffering callback sts4.classpath.MOxRzSTJ CursoSpringUdemmy-2 false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.277
+!MESSAGE Preparing classpath changed notification CursoSpringUdemmy-3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.278
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.290
+!MESSAGE classpath=106 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.301
+!MESSAGE buffering callback sts4.classpath.MOxRzSTJ CursoSpringUdemmy-3 false 106
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.302
+!MESSAGE Preparing classpath changed notification RetoPractico2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.302
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.314
+!MESSAGE classpath=106 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.325
+!MESSAGE buffering callback sts4.classpath.MOxRzSTJ RetoPractico2 false 106
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.325
+!MESSAGE Preparing classpath changed notification spring-boot-data-jpa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.326
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.340
+!MESSAGE classpath=106 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.353
+!MESSAGE buffering callback sts4.classpath.MOxRzSTJ spring-boot-data-jpa false 106
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.353
+!MESSAGE executing callback sts4.classpath.MOxRzSTJ 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:08:50.468
+!MESSAGE executing callback sts4.classpath.MOxRzSTJ SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-24 15:09:05.934
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:09:08.380
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MOxRzSTJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:09:08.381
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.MOxRzSTJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:09:08.381
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-24 15:09:08.382
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MOxRzSTJ => OK

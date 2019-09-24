@@ -51,7 +51,6 @@ INDEX VERSION 1.131+C:\Users\CUSME\Desktop\ProyectoRetoPractico\.metadata\.plugi
 2312443017.index
 1731391726.index
 2345891728.index
-311573785.index
 3703580927.index
 1004716384.index
 3339748885.index
