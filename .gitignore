@@ -1,2 +1,6 @@
 
 *.zip
+.metadata/.mylyn/.tasks.xml.zip
+.metadata/.log
+*.zip
+*.zip
