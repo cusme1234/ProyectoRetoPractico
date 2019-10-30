@@ -40,7 +40,8 @@ public class Uso_Empleado {
 		
 		misEmpleados[4]=new Jefatura("maria", 95000, 1999, 5, 26);//principio de sustitución
 		
-		
+		Jefatura jefa_Finanzas=(Jefatura) misEmpleados[4];
+		jefa_Finanzas.estableceIncentivo(55000);
 				
 		//ejemplo de impresion 2
 		/*for(int i=0;i<3;i++) {
@@ -152,4 +153,6 @@ class Jefatura extends Empleado{
 	
 	
 }
+
+ 
 
