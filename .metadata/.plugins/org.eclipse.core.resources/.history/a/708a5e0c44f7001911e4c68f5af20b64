@@ -1,0 +1,13 @@
+package poo;
+
+public class Uso_Coche {
+
+	public static void main(String[] args) {
+
+
+		Coche carro = new /*constructor*/Coche();//instanciar una clase
+
+		System.out.println(carro.dime_largo());
+	} 
+
+}

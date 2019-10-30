@@ -1,0 +1,21 @@
+package poo;
+
+public class Uso_Coche {
+
+	public static void main(String[] args) {
+
+
+		Coche carro = new /*constructor*/Coche();//instanciar una clase
+		
+		
+		carro.establece_color("amarillo");
+		System.out.println(carro.dime_datos_generales());
+
+		System.out.println(carro.dime_color());
+		
+		carro.configura_asientos("sI");
+		
+		System.out.println(carro.dime_asientos());
+	} 
+
+}

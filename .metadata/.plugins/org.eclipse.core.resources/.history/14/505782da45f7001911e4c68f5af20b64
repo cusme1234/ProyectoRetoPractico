@@ -1,0 +1,16 @@
+package poo;
+
+public class Uso_Coche {
+
+	public static void main(String[] args) {
+
+
+		Coche carro = new /*constructor*/Coche();//instanciar una clase
+		
+		
+		carro.establece_color();
+
+		System.out.println(carro.dime_color());
+	} 
+
+}
