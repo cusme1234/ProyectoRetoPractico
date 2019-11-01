@@ -1,0 +1,7 @@
+package poo;
+
+public interface jefes {
+
+	String tomar_Decisiones(String desicion);
+	
+}

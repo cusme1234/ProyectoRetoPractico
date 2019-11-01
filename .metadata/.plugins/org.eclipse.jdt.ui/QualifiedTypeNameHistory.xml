@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.persistence.Temporal"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-<fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
-<fullyQualifiedTypeName name="javax.transaction.Transactional"/>
-<fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
-<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
-<fullyQualifiedTypeName name="org.springframework.ui.Model"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="com.curso.udemmy.models.entity.Cliente"/>
 <fullyQualifiedTypeName name="javax.persistence.PrePersist"/>
@@ -55,9 +44,20 @@
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="com.curso.udemmy.models.service.IUploadFileService"/>
 <fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
 <fullyQualifiedTypeName name="poo.Empleado"/>
 <fullyQualifiedTypeName name="poo.Empleados"/>
+<fullyQualifiedTypeName name="poo.Jefatura"/>
+<fullyQualifiedTypeName name="poo.Persona"/>
+<fullyQualifiedTypeName name="poo.Empleado2"/>
+<fullyQualifiedTypeName name="poo.Alumno"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="poo.Clase2"/>
+<fullyQualifiedTypeName name="paquetepruebas.Clase3"/>
+<fullyQualifiedTypeName name="poo.Tabajadores"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.swing.Timer"/>
+<fullyQualifiedTypeName name="poo.DameLaHora"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>

@@ -42,7 +42,26 @@ public class Uso_Empleado {
 		
 		Jefatura jefa_Finanzas=(Jefatura) misEmpleados[4];
 		jefa_Finanzas.estableceIncentivo(55000);
-				
+		
+		System.out.println(jefa_Finanzas.tomar_Decisiones("dar mas dias de vacaciones a los empleados"));
+		
+		System.out.println("el jefe es: "+jefa_Finanzas.dameNombre()+" tiene un bonus de: "+jefa_Finanzas.establece_bonus(500));
+			//ejemplo de instancia	
+		/*Empleado director_comercial=new Jefatura("geremias", 95000, 1999, 5, 26);
+		
+		Comparable ejemplo=new Empleado("alberto", 95000, 1999, 5, 26);
+		
+		if(director_comercial instanceof Empleado) {
+			
+			System.out.println("es una instancia de enpleado");
+		}
+		
+		if(ejemplo instanceof Comparable) {
+			
+			System.out.println("es una instancia de comparable");
+		}
+		*/
+		
 		//ejemplo de impresion 2
 		/*for(int i=0;i<3;i++) {
 			
@@ -62,6 +81,8 @@ public class Uso_Empleado {
 			e.subeSueldo(5);;
 		}
 		
+		Arrays.sort(misEmpleados);//ordenar por sueldo
+		
 		for(Empleado e: misEmpleados) {
 			
 			System.out.println("Nombre: "+e.dameNombre()+" sueldo: "+ e.dameSueldo()
@@ -75,7 +96,7 @@ public class Uso_Empleado {
 	
 }
 
-class Empleado{
+class Empleado implements Comparable, Tabajadores{//obligatorio la interfaz comparable para ordenar por sueldo
 	
 	public Empleado(String nom, double sue, int ano, int mes, int dia) {
 		
@@ -90,6 +111,11 @@ class Empleado{
 		id=idSiguiente;
 		idSiguiente++;
 		
+	}
+
+	public double establece_bonus(double gratificacion) {
+		// TODO Auto-generated method stub
+		return Tabajadores.bonus_base+gratificacion;
 	}
 	
 	public String dameNombre() {//getter
@@ -115,14 +141,40 @@ class Empleado{
 		sueldo+=aumento;
 	}
 	
+	public int compareTo(Object miObjeto) {//metodo de la interfaz debuelve -1, 0, 1
+		// TODO Auto-generated method stub
+		
+		Empleado otroempleado=(Empleado) miObjeto;
+		
+		if(this.sueldo<otroempleado.sueldo) {
+			
+			return -1;
+		}
+		
+        if(this.sueldo>otroempleado.sueldo) {
+			
+			return 1;
+		}
+        
+       
+        return 0;
+		
+		
+	}
+	
+	
 	private String nombre;
 	private double sueldo;
 	private Date altacontrato;
 	private int id;
 	private static int idSiguiente=1;
+	
+	
+	
+	
 }
 
-class Jefatura extends Empleado{
+class Jefatura extends Empleado implements jefes{
 	
 	
 	public Jefatura(String nom, double sue, int ano, int mes, int dia ) {
@@ -147,10 +199,18 @@ class Jefatura extends Empleado{
 	
 	
 	
+	public String tomar_Decisiones(String desicion) {
+		// TODO Auto-generated method stub
+		return "un miembro de la deireccion tomo la siguiente decision: "+desicion;
+	}
+	
 	private double incentivo;
-	
-	
-	
+
+	@Override
+	public double establece_bonus(double gratificacion) {
+		double prina=2000;
+		return Tabajadores.bonus_base+gratificacion+prina;
+	}
 	
 }
 
