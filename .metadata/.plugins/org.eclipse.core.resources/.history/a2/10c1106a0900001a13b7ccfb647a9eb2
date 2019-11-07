@@ -1,0 +1,31 @@
+package graficos;
+
+import javax.swing.*;
+public class CreandoMarcos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		miMarco marco1=new miMarco();
+		
+		marco1.setVisible(true);
+		marco1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//finaliza el programa al cerrarce la ventana 
+		 //marco1.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);//no finaliza el programa al cerrarce la ventana solo se minimiza la ventana 
+		
+	}
+
+}
+ class miMarco extends JFrame{
+	 
+	 public miMarco() {
+		 
+		 //setSize(500, 300);//ancho largo del marco
+		 //setLocation(500,300);//posicion del marco en la pantalla
+		 setBounds(500,300,250,250);
+	 }
+	 
+	 
+	 
+	 
+ }
+
