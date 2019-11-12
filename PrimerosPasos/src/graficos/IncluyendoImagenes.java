@@ -1,7 +1,7 @@
 package graficos;
+//package graficos;
 
 import java.awt.*;
-import java.awt.Graphics;
 import java.io.*;
 
 import javax.imageio.ImageIO;
@@ -15,7 +15,7 @@ public class IncluyendoImagenes {
 		// TODO Auto-generated method stub
 
 		MarcoImagen marco= new MarcoImagen();
-		marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 	}
 
 }
@@ -26,9 +26,10 @@ class MarcoImagen extends JFrame{
 		
 		setVisible(true);
 		setTitle("imagenes");
-		setBounds(750, 300, 300, 200);
-		
-		add(new LaminaImage());
+		setBounds(500, 500, 500, 400);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		LaminaImage laminaima = new LaminaImage();
+		add(laminaima);
 		
 	}
 	
@@ -36,20 +37,21 @@ class MarcoImagen extends JFrame{
 
 class LaminaImage extends JPanel{
 	
-	public void paintComponet(Graphics g) {
+	public void paintComponent(Graphics g) {
 		
 		super.paintComponent(g);
 		//Graphics2D g2=(Graphics2D) g;
 	   //File miimagen= new File("src/poo/descarga.jpg");
 		try {
-		imagen=ImageIO.read(new File("src/yghhrh/descarga.jpg"));
+		imagen=ImageIO.read(new File("spring.png"));
 		}catch(IOException e) {
 			System.out.println("no se encontro imagen");
 		}
 		
-		g.drawImage(imagen, 5, 5, null);
+		g.drawImage(imagen, 5, 5, null);		
 		
 	}
 	
 	private Image imagen;
 }
+

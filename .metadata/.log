@@ -17410,3 +17410,18 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jdt.debug 2 0 2019-11-07 11:24:48.758
 !MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 18:36:27.668
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AQLLIBEj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 18:36:27.671
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.AQLLIBEj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 18:36:27.672
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 18:36:27.673
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AQLLIBEj => OK
+
+!ENTRY org.eclipse.ui 2 2 2019-11-07 18:36:28.555
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
